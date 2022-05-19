@@ -30,6 +30,7 @@ server.listen(port, () => {
   console.log('Listening to port', port);
 });
 
+
 // API to Receive Queries /
 server.post('/submit_query', (req, res) => {
   const { pack } = req.body;
@@ -49,4 +50,3 @@ server.post('/submit_query', (req, res) => {
       console.log('error:', err);
     });
 });
-
