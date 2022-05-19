@@ -49,4 +49,3 @@ server.post('/submit_query', (req, res) => {
       console.log('error:', err);
     });
 });
-
